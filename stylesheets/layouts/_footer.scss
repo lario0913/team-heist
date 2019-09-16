@@ -1,0 +1,22 @@
+.section-footer{
+padding: 4rem 0;
+
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-gap:1rem;
+}
+
+.footer-image{
+    margin-bottom: 6rem;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+a > img{
+    margin-right: 0.5rem;
+}
+}
