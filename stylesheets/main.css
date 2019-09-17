@@ -62,6 +62,12 @@ ul {
   padding: 0 1rem;
 }
 
+.navbar .header-button {
+  border: 1px solid #01AAE4;
+  color: #01AAE4;
+  border-radius: 8px;
+}
+
 .section-footer {
   padding: 4rem 0;
 }
