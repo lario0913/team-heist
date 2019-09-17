@@ -3,6 +3,7 @@ padding: 4rem 0;
 
 
 .container{
+    @include conTain();
     display: grid;
     grid-template-columns:repeat(6,1fr);
     grid-gap:1rem;
@@ -11,12 +12,23 @@ padding: 4rem 0;
 .footer-image{
     margin-bottom: 6rem;
 }
+.contain1{
+    width: 40vw;
+}
 
 p{
     margin-bottom: 1rem;
 }
 
+ul li{
+    margin-bottom: 0.5rem;
+}
 a > img{
     margin-right: 0.5rem;
+    margin-top: 5rem;
+}
+
+.supporticon{
+    @include supportIcon();
 }
 }

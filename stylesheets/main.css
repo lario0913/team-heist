@@ -6,6 +6,9 @@
 }
 
 body {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
   line-height: 1.6;
 }
 
@@ -25,24 +28,23 @@ ul {
   width: 100%;
 }
 
-.container {
-  max-width: 1100px;
-  margin: auto;
-  overflow: hidden;
-  padding: 0 2rem;
-}
-
 .navbar {
   font-size: 1.2rem;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
+  margin-top: 2rem;
 }
 
 .navbar .container {
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
+  margin-right: 6rem;
 }
 
 .navbar .nav {
@@ -62,10 +64,17 @@ ul {
   padding: 0 1rem;
 }
 
+.navbar .headerimg {
+  margin-left: 8rem;
+}
+
 .navbar .header-button {
   border: 1px solid #01AAE4;
-  color: #01AAE4;
   border-radius: 8px;
+}
+
+.navbar .supporticon {
+  margin-left: 0.5rem;
 }
 
 .section-footer {
@@ -73,6 +82,10 @@ ul {
 }
 
 .section-footer .container {
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[6];
@@ -84,11 +97,24 @@ ul {
   margin-bottom: 6rem;
 }
 
+.section-footer .contain1 {
+  width: 40vw;
+}
+
 .section-footer p {
   margin-bottom: 1rem;
 }
 
+.section-footer ul li {
+  margin-bottom: 0.5rem;
+}
+
 .section-footer a > img {
   margin-right: 0.5rem;
+  margin-top: 5rem;
+}
+
+.section-footer .supporticon {
+  margin-left: 0.5rem;
 }
 /*# sourceMappingURL=main.css.map */
