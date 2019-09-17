@@ -109,9 +109,10 @@ ul {
   margin-bottom: 0.5rem;
 }
 
-.section-footer a > img {
-  margin-right: 0.5rem;
+.section-footer a > i {
+  margin-right: 2rem;
   margin-top: 5rem;
+  color: #505050;
 }
 
 .section-footer .supporticon {
