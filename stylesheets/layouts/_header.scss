@@ -36,8 +36,19 @@
         border-radius: 8px;
 }
 
+.people{
+    border-right: 0.5px solid grey;
+    
+}
 .supporticon{
     @include supportIcon();
+}
+
+
+@media(max-width:500px){
+    .nav{
+       display: none;
+    }
 }
 
 

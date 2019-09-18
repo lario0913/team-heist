@@ -29,6 +29,10 @@ a > i{
     color:$darkGrey;
 }
 
+.hoopper{
+    border-bottom: 2px solid black;
+}
+
 .supporticon{
     @include supportIcon();
 }

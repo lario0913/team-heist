@@ -38,7 +38,6 @@ ul {
 .navbar .container {
   max-width: 100%;
   margin: auto;
-  overflow: hidden;
   padding: 0 2rem;
   display: -ms-grid;
   display: grid;
@@ -73,8 +72,18 @@ ul {
   border-radius: 8px;
 }
 
+.navbar .people {
+  border-right: 0.5px solid grey;
+}
+
 .navbar .supporticon {
   margin-left: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  .navbar .nav {
+    display: none;
+  }
 }
 
 .section-footer {
@@ -84,7 +93,6 @@ ul {
 .section-footer .container {
   max-width: 100%;
   margin: auto;
-  overflow: hidden;
   padding: 0 2rem;
   display: -ms-grid;
   display: grid;
@@ -113,6 +121,10 @@ ul {
   margin-right: 2rem;
   margin-top: 5rem;
   color: #505050;
+}
+
+.section-footer .hoopper {
+  border-bottom: 2px solid black;
 }
 
 .section-footer .supporticon {

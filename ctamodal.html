@@ -7,19 +7,45 @@
     <title>Document</title>
 </head>
 <style>
+
+    .ctamodal{
+        text-align: center;
+        margin-top: 13rem;
+    }
     .ctabtn{
     width: 10rem;
     height: 2rem;
   
     background: #01AAE4;
-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+
 border-radius: 8px;}
 
 .playstore{
-    background: linear-gradient(221.04deg, #FC472E -9.59%, #FC472F -9.19%, #893CD8 109.05%);
+    background: gradient(163.58deg, #19A3B4 -19.92%, #5BC3AF 17.22%, #C8F7A6 78.46%, #D7FEA5 86.75%);;
 }
+
+.ctamodal a{
+    color:#FA6866;
+    text-decoration: none;
+}
+
+input[type=text] {
+    width: 12rem;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    
+}
+
+::placeholder{
+   padding-left: 0.5rem;
+}
+
+.grid{
+    display: flex;
+  align-content: center; }
 </style>
 <body>
+    <div class="ctamodal">
         <h3> Get the Hopper app and<br>
             start planning your trip</h3>
             <p>Send a link to your phone,or download<br>
@@ -29,12 +55,14 @@ border-radius: 8px;}
         <input type="text" placeholder="Phone Number">
         <button class="ctabtn">Send Link</button>
     </form>
-    <div>
-        <img class="playstore" src="https://res.cloudinary.com/dtbjhs8a6/image/upload/v1568736592/samples/figma%20homepage/rfxveoanvti6friqmhka.svg"style="width:1rem;height:1rem;">
-        <p>By clicking "Send Link", you agree to the <a href="#">Terms Of Service</a></p>
+    
+        <div class="grid">
+        <p><img src=https://res.cloudinary.com/dtbjhs8a6/image/upload/v1568752648/samples/figma%20homepage/qmvvy7cqvs371ezigjpu.svg style="width:1rem;height:1rem;">AVAILABLE ON THE </br>APP STORE</p>
+        <p><img class="playstore" src="https://res.cloudinary.com/dtbjhs8a6/image/upload/v1568736592/samples/figma%20homepage/rfxveoanvti6friqmhka.svg"style="width:1rem;height:1rem;">AVAILABLE ON THE<br> GOOGLE STORE</p>
+        
     </div>
-
-
+    <p >By clicking "Send Link", you agree to the <a href="#">Terms Of Service</a></p>
+</div>
     <script src=js/main.js></script>
 </body>
 </html>
