@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway" "sans-serif";
+}
+
+section:nth-child(1) {
+  background-color: #fafafa;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  section:nth-child(1) {
+    display: none;
+  }
+}
+
+section:nth-child(1) img {
+  position: absolute;
+  left: 950px;
+  top: 75px;
+}
+
+section:nth-child(1) .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  background-color: #f6f6f6;
+  border: 1px dashed black;
+  border-radius: 8px;
+  padding: 40px;
+  padding-bottom: 50px;
+}
+
+section:nth-child(1) .container .container-item h4, section:nth-child(1) section.container .container-item p {
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  color: #505050;
+  font-weight: 900;
+}
+
+section:nth-child(1) .container .container-item a {
+  font-size: 16px;
+  color: #01AAE4;
+}
+
+section:nth-child(1) .container .container-item i {
+  margin-top: 10px;
+}
+
+section.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  padding: 40px 0;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  section.container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+section.container .container-item {
+  width: 27%;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  section.container .container-item {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+}
+
+section.container .container-item h4, section.container .container-item p {
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  color: #505050;
+  font-size: 18px;
+}
+
+section.container .container-item p {
+  color: #878787;
+  font-weight: normal;
+  font-size: 16px;
+}
+/*# sourceMappingURL=list-bottom-style.css.map */
