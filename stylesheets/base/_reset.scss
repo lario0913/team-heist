@@ -4,6 +4,9 @@
     padding: 0;
 }
 body{
+    font-family: proxima-nova, sans-serif;
+font-style: normal;
+font-weight: 100;
     
     line-height:1.6;
     
@@ -26,9 +29,4 @@ ul{
     width: 100%;
 }
 
-.container{
-    max-width:1100px;
-    margin:auto;
-    overflow:hidden;
-    padding: 0 2rem;
-}
+
