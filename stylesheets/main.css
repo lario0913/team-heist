@@ -174,12 +174,20 @@ ul {
   padding-left: 0.5rem;
 }
 
-.ctamodal .grid {
+.grid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  margin-left: 32rem;
+  margin-top: 15rem;
+  -webkit-box-pack: space-betw;
+      -ms-flex-pack: space-betw;
+          justify-content: space-betw;
+}
+
+.gridp {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .ctamodal2 {
@@ -197,17 +205,17 @@ ul {
   border-radius: 8px;
 }
 
-.subnavbar .container {
+.subnavbarsection .container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   max-width: 100%;
-  margin: auto;
+  margin: 5rem;
   overflow: hidden;
 }
 
-.subnavbar .subnav {
+.subnavbarsection .subnav {
   justify-self: flex-end;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,17 +228,38 @@ ul {
           justify-content: center;
 }
 
-.subnavbar .subnav a {
+.subnavbarsection a {
   text-decoration: none;
+  color: skyblue;
+}
+
+.subnavbarsection ul li {
+  list-style: none;
   padding: 0 1rem;
 }
 
-.subnavbar ul {
-  list-style: none;
+.subnavbarsection .deals {
+  border-right: 0.5px solid grey;
 }
 
 .feat {
   text-align: center;
-  margin-top: 10rem;
+}
+
+.feat .featp {
+  margin-right: 21rem;
+}
+
+.feat h3 {
+  margin-right: 15rem;
+}
+
+.feat p {
+  margin-top: 1rem;
+}
+
+.feat2 {
+  margin-top: 5rem;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
